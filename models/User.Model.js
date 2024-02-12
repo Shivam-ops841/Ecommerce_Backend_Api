@@ -1,9 +1,9 @@
 const mongoose=require('mongoose')
 
-const User_Model=new mongoose.Model({
+const User_Model=new mongoose.Schema({
     Name:{
         type:String,
-            required:true,
+        required:true
     },
     Email:{
         type:String,

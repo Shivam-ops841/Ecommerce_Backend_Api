@@ -2,6 +2,7 @@ const express=require('express')
 require('dotenv').config();
 const connect=require('./db/connect.js');
 const app=express()
+const main_route=require('./routes/Main.Route')
 
 connect(app)
 
